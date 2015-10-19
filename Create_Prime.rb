@@ -17,5 +17,6 @@ p @prime_list
 
 #test from github
 #push back test
+#Used "git pull" after commiting on site
 #Used "get commit -a -m "with a message"
 #then used a git push
