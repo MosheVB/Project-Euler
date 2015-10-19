@@ -16,4 +16,6 @@ create_prime(5)
 p @prime_list
 
 #test from github
-push back test
+#push back test
+#Used "get commit -a -m "with a message"
+#then used a git push
