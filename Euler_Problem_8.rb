@@ -25,7 +25,7 @@ product = 1
 (0..986).each do |x|
 	product = 1
 	
-	(x..(x+12)).each do |y|
+	(x..(x+12)).each dosubol |y|
 		product = product * number[y]
 	end
 
