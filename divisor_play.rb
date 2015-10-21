@@ -26,28 +26,13 @@ end
 
 def create_triangular_number(stop)
     triangle = 1
+    # a triangle number can be written as 1+2+...+n = (n*(n+1))/2 
     while find_devisors_length(triangle*(triangle+1)/2) < stop
-        triangle = triangle + 
-        y = find_devisors_length(triangle*(triangle+1)/2)
-        puts "Triangle number #{y}"
+        triangle = triangle + 1
+        # puts "Triangle number #{y}"
     end
-    
-    return triangle*(triangle+1)/2
+    puts final = triangle*(triangle+1)/2
+    return final
 end
-
-# def find_triangle(divisor_count)
-#         n = 1
-#     while (find_devisors_length(n) * find_devisors_length(n+1)) < divisor_count
-#         n +=1
-#      end
-#      return n
-# end
-
- # index = find_triangle(500)
- # puts (index * (index + 1))
- # puts num_divisors(3)
-
-
-# puts find_devisors_length( 35814240)
-# puts find_devisors_length(1 )
- create_triangular_number(500)
+ 
+create_triangular_number(500)
