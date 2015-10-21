@@ -23,3 +23,5 @@ end
 # total = t1.value * t2.value * t2.value * t4.value
 # puts total
  count(1,800000)
+
+ #results: single 8 min 4 threads 2 min
