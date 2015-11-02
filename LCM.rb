@@ -31,7 +31,7 @@ end
 
 #run this to create the array @moshes_magic_numbers -- this will be the numbers you are using to 
 #get the least common multiple prime factors; in this example you are finding the LCM of 2-x (1-x)
-(2..10).each do |number|
+(2..100).each do |number|
 find_primes(number)
 end
 
